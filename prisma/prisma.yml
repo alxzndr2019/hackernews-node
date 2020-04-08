@@ -1,0 +1,8 @@
+# The HTTP Endpoit for the Prisma API
+endpoint:''
+
+datamodel: datamodel.prisma
+
+generate: 
+  -generator: javascript-client
+  output: ../src/generated/prisma-client
